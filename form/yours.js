@@ -15,6 +15,9 @@ toggleButton.addEventListener('blur', function () {
 //   })
 
 menu.addEventListener('click',function(e){
+    if(e.target.tagName==='UL'){
+        return;
+    }
     const value = e.target.textContent.trim();
     console.log(value);
     toggleButton.textContent=value;
