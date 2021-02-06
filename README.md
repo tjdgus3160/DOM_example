@@ -1,2 +1,2 @@
-# javascript-101
+# DOM example
 ## 김버그 DOM 예제, 드롭다운 만들기
